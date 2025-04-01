@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1743315132,
+        "narHash": "sha256-6hl6L/tRnwubHcA4pfUUtk542wn2Om+D4UnDhlDW9BE=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "52faf482a3889b7619003c0daec593a1912fddc1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "sf-mono-liga-src": "sf-mono-liga-src"
+      }
+    },
+    "sf-mono-liga-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1688258025,
+        "narHash": "sha256-AYjKrVLISsJWXN6Cj74wXmbJtREkFDYOCRw1t2nVH2w=",
+        "owner": "shaunsingh",
+        "repo": "SFMono-Nerd-Font-Ligaturized",
+        "rev": "dc5a3e6fcc2e16ad476b7be3c3c17c2273b260ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "shaunsingh",
+        "repo": "SFMono-Nerd-Font-Ligaturized",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
